@@ -1,0 +1,16 @@
+.draggable-node {
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: grab;
+  font-weight: bold;
+  text-align: center;
+  min-width: 80px;
+  transition: all 0.2s ease-in-out;
+}
+
+.draggable-node:hover {
+  background-color: #16213e;
+  transform: scale(1.05);
+}

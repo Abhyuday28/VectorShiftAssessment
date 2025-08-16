@@ -1,0 +1,51 @@
+
+
+.base-node {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  min-width: 160px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.base-node:hover {
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  border-color: #999;
+}
+
+.node-header {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.node-body {
+  color: #555;
+}
+
+.base-node input,
+.base-node select,
+.base-node textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+  /* margin-bottom: 2px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  min-height: 40px;
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.base-node textarea {
+  resize: vertical;
+  min-height: 40px;
+}
