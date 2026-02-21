@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 
 const Alert = ({ type = "success", message, onClose, duration = 3000 }) => {
-  // Auto close after duration
+  
   useEffect(() => {
     if (duration) {
       const timer = setTimeout(() => onClose(), duration);
@@ -15,7 +15,7 @@ const Alert = ({ type = "success", message, onClose, duration = 3000 }) => {
       ? "#4caf50" // green
       : type === "error"
       ? "#f44336" // red
-      : "#2196f3"; // blue (default/info)
+      : "#2196f3"; // blue 
 
   return (
     <div
